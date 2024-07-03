@@ -1,0 +1,14 @@
+.copy-button.clicked {
+  /* Add your desired animation styles here, e.g., scaling, color change, etc. */
+  animation: click-animation 0.2s ease-in-out;
+  background-color: whitesmoke;
+}
+
+@keyframes click-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  } /* Example scaling animation */
+}
